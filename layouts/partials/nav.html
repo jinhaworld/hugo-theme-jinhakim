@@ -1,0 +1,10 @@
+<div  class ="side">
+    <div class="side-nav">
+        {{ range .Site.Menus.main }}
+        <a class="side-item" href="{{ .URL }}">
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </a> 
+        {{ end }}
+    </div>
+</div> 

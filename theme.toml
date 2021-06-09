@@ -1,0 +1,12 @@
+name = "hugo-theme-jinhakim"
+license = "MIT"
+licenselink = "https://github.com/jinhaworld/hugo-theme-jinhakim/LICENSE"
+description = "Simplistic and efficient hugo design for blogs & resume"
+homepage = "https://github.com/jinhaworld/hugo-theme-jinhakim"
+tags = []
+features = [] 
+min_version = "0.41.0"
+
+[author]
+  name = "Jinha Kim"
+  homepage = "URL to your homepage"  

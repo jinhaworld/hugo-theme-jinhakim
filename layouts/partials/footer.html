@@ -1,0 +1,11 @@
+<p class="footer-side text-center"> 
+    <body style = "background-color: rgb(152, 209, 219);"> 
+        Website designed by Jinha Kim 
+        <br></br>
+        Copyright (c) {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}
+        {{ if .Site.Params.privacyPolicyUrl }} 
+        <a class="grey-link" href="{{ .Site.Params.privacyPolicyUrl }}">Privacy policy</a>
+        {{ end}} 
+    </body>
+</p>
+ 
