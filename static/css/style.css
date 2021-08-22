@@ -1,11 +1,15 @@
 .content {
     text-align: center;  
-    background-color: rgb(110, 151, 144); 
-} 
+    background-color: rgb(152, 179, 156); 
+} /* index.html title class */
+
+.page {
+    background-color: rgb(121, 129, 129);
+}
 
 .post {
-    min-height: calc(100vh - 100px); 
-    background-color: rgb(152, 209, 219); 
+    min-height: calc(100vh); 
+    background-color: rgb(204, 224, 224); 
 }
 
 .container { 
@@ -16,16 +20,12 @@
     margin-right: auto;
 } 
 
-.center {
-    text-align: center;
-}
-
 .side {
-    background-color: rgb(110, 151, 144); 
+    background-color: rgb(107, 126, 109); 
     text-align: center;
     border-bottom: 8px solid #212529;
     padding: 12px;
-} 
+}  /* navigation bar css */
 
 .side-nav {
     font-weight: bolder;
@@ -50,16 +50,14 @@
 
 .footer {
     text-align: center;  
-    color: rgb(99, 96, 96);
-    height: 10px;
-    /* font-size: xx-small; */
     font-size: 75%;
-}
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 .footer-side {
     color: rgb(99, 96, 96);
     height: 10px;
-    /* font-size: xx-small; */
     font-size: 75%;
 }
 
